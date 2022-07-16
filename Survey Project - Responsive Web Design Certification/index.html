@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <title>Carrer Registration Form</title>
+  <meta lang="en">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div id="title-border"> 
+        <h1 id="title">Registration</h1>
+       <p id="descrpition">Registration for the software engineer carrer</p>
+    </div>
+    <div class="separator">
+    </div>
+    <form id="survey-form">
+        <fieldset class="border">
+            <label for="survey" id="name-label">Enter your first name                 
+                    <input type="text" id="name" placeholder="Your name" required/>               
+            </label>
+            <label for="survey" id="email-label">Enter your email                
+                    <input type="email" id="email" placeholder="Your email" required/>               
+            </label>
+            <label for="survey" id="number-label" >Enter your number 
+                    <input type="number" id="number" placeholder="Your number" min="0" max="10" required/>
+            </label>
+        </fieldset>  
+        <fieldset class="border">
+            <select id="dropdown">
+                <option>Nigth shift</option>
+                <option>Morning shift</option>
+            </select>
+        </fieldset>
+        <fieldset class="border">
+            <label>Select Your Carrer</label>
+            <div class="radios">
+                <input id="carrer-radio-one" type="radio" name="carrer" value="1">
+                <label for="carrer-radio-one">Software Engineer</label>
+            </div>
+            <div class="radios">
+                <input id="carrer-radio-two" type="radio" name="carrer" value="2">
+                <label for="carrer-radio-two"></label>Cyber Security</label>
+            </div>
+            <div>
+                <input id="carrer-radio-three" type="radio" name="carrer" value="3">
+                <label for="carrer-radio-three">Data scientist</label>
+            </div>
+        </fieldset>
+        <fieldset class="border">
+            <div class="checkbox">
+                <input id="carrer-checkbox-one" type="checkbox" name="carrer-terms" value="1">
+                <label for="carrer-checkbox-one">Accept terms and policy</label>
+            </div>
+            <div class="checkbox">
+                <input id="carrer-checkbox-two" type="checkbox" name="carrer-terms" value="2">
+                <label for="carrer-checkbox-two"></label>I Am older than 18 and have finished high school</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="comments">Leave a comment</label>
+            <textarea name="comments" placeholder="Feel free to write!" id="student-comment" cols="50" rows="20"></textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>

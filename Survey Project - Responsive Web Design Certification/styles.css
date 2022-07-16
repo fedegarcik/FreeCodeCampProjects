@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #404264;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, p{
+    margin-top: auto;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+
+input{
+    display: block;
+    width: 100%;
+    margin: 0.5em 0 0.5em 0;
+    border: none;
+    background-color: #4e2d58;
+    border-radius: 3px;
+
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 1em;
+    padding-top: 0.5em;
+    display: inline ;
+}
+
+.border{
+    border-bottom: 5px solid #4e2d58;
+    border-radius: 3px;
+}
+
+label{
+    display: inline;
+}
+
+textarea{
+    background-color: #4e2d58;
+    border: none;
+    border-radius: 4px;
+    margin: 0.5em 0;
+}
+
+input[type="submit"]{
+    color:#ffffff
+}
+
+fieldset{
+    border: none;
+}
+
+#title-border{
+    width: 100% !important;
+    height: 100% !important;
+    background-image: url("/Images/RegistrationOnline.png");
+    border-bottom: 10px solid #4e2d58;
+      
+}
+
+#separator
+{
+    width: 5px;
+    height: 10px;
+    border: 20px double #4e2d58;
+}
